@@ -1,4 +1,6 @@
-
+body{
+  background-color: #f2f2f2 !important;
+}
 *{
     font-family: "B Koodak";
     font-size: 16px;
@@ -17,6 +19,7 @@ form-group{
     margin-left:25% !important;
 }
 .btn-primary{
+  margin-top:30px;
     width:150px;
     background-color:#7EA6C0 !important;
     border-color:#7EA6C0 !important;
@@ -39,4 +42,16 @@ form-group{
 }
 :-moz-placeholder {
   color: #7EA6C0 !important;
+}
+.form-check-label{
+  margin-right: 1.5rem;
+}
+
+.form-check-label{
+  color: #7ea6c0 !important;
+}
+
+.card{
+  border: none !important;
+  background-color: #f2f2f2 !important;
 }
