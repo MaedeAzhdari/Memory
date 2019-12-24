@@ -55,3 +55,16 @@ form-group{
   border: none !important;
   background-color: #f2f2f2 !important;
 }
+
+.col-top{
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  direction: rtl;
+}
+
+.btn-submit-diary{
+  background-color: #fff;
+  padding:10 100 10 100;
+  border: 1px solid #3490dc;
+}
