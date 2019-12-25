@@ -68,3 +68,34 @@ form-group{
   padding:10 100 10 100;
   border: 1px solid #3490dc;
 }
+
+.blu-p{
+color:#3490dc !important;
+}
+
+
+.col-6{
+  text-align: right !important;
+  padding:15px 15px 0px 0px;
+  margin:10px;
+  max-width: 45% !important;
+  background-color: #fff;
+  border: 1px solid #3490dc;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.custom-link{
+  display: inline;
+    color: #fff;
+    background-color: #7ea6c0;
+    width: 33%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.d1{
+  margin: 0 auto;
+}
