@@ -6,6 +6,9 @@
     <form action="/m" enctype="multipart/form-data" method="post">
         @csrf
         <div class="row"> 
+        <div class="col-top">
+<img class="" src="/Images/diary-book.png" style="width:200px; display:block;direction:rtl;"/>
+</div>
         <div class="col-8 offset-2">
             <div class="row justify-content-center p-2">
            <h3 class="blu-p">ثبت خاطره جدید </h3>
@@ -19,7 +22,8 @@
 
                 <div class="form-group row mb-0">
                     <div class="col-8 offset-md-4">
-                        <button class="btn btn-primary">ثبت خاطره</button>
+                        <button class="btn btn-primary">ثبت</button>
+                        <input class="btn btn-primary" type="button" onClick="history.back()" value="بازگشت">
                     </div>
                 </div>
         </div>

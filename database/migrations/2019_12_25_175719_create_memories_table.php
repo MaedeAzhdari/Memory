@@ -17,7 +17,7 @@ class CreateMemoriesTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
             $table->string('subject');
-            $table->text('description');
+            $table->mediumText('description');
             $table->timestamps();
             $table->index('user_id');
         });

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Hekmatinasser\Verta\Verta;
 class ProfilesController extends Controller
 {
     

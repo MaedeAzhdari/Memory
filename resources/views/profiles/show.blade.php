@@ -3,6 +3,7 @@
 @extends('layouts.app')
 <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 
+
 @section('content')
 <div class="container">
  
@@ -25,7 +26,7 @@
         <div class="row">
         <a class="custom-link" href="/m/{{$memory->id}}">
         نمایش </a>
-        <a class="custom-link" href="/m/{{$memory->id}}">
+        <a class="custom-link" href="/m/{{$memory->id}}/edit">
         ویرایش </a>
         <a class="custom-link" href="/m/{{$memory->id}}">
         حذف </a>

@@ -18,8 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/m/create' , 'MemoriesController@create');
-Route::get('/m/{id}' , 'MemoriesController@show');
+Route::get('/m/{memory}' , 'MemoriesController@show');
+Route::get('/m/{memory}/edit', 'MemoriesController@edit');
+Route::patch('/m/{memory}', 'MemoriesController@update');
 Route::post('/m' , 'MemoriesController@store');
-
 
 Route::get('/profile/{user}', 'ProfilesController@show')->name('profile.show');

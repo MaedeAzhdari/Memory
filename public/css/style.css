@@ -70,7 +70,7 @@ form-group{
 }
 
 .blu-p{
-color:#3490dc !important;
+color:#7EA6C0 !important;
 }
 
 
@@ -98,4 +98,10 @@ a{
 
 .d1{
   margin: 0 auto;
+}
+
+.cntnt{
+  text-align: right;
+  direction: rtl;
+  padding: 15px;
 }

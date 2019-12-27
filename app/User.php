@@ -41,6 +41,7 @@ class User extends Authenticatable
     {
         return $this->hasOne(Profile::class);
     }
+    
     public function memories()
     {
         return $this->hasMany(Memory::class)->orderBy('created_at' , 'DESC');
