@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>دفترچه خاطرات آنلاین - مائده اژدری لاله</title>
+        <title>دفترچه خاطرات آنلاین - مائده اژدری و شقایق احمدی</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -92,7 +93,7 @@
                 <img src="Images/Titr.png" style="width:400px; margin:10px;"/> 
                 </div>
                 <div class="introduction">
-                مائده اژدری لاله - آذرماه ۱۳۹۸
+                مائده اژدری لاله - شقایق احمدی - دی ماه ۱۳۹۸
                 </div>
                 <!--<div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

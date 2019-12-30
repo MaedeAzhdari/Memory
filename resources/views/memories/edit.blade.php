@@ -31,6 +31,7 @@
         <div class="form-group row mb-0">
                     <div class="col-8 offset-md-4">
                         <button class="btn btn-primary">ثبت</button>
+                        <input class="btn btn-primary" type="button" onClick="history.back()" value="بازگشت">
                     </div>
                 </div>
     </div>

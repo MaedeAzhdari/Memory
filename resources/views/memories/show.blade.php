@@ -17,7 +17,7 @@
             </p>
         </div>
                 <div class="row justify-content-center">
-                <button class="btn btn-primary">بازگشت</button>
+                <input class="btn btn-primary" type="button" onClick="history.back()" value="بازگشت">
                 </div>
         </div>
 </div>

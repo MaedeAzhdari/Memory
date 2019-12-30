@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Http\Controllers\Route;
 use App\Memory;
 use App\User;
+use DB;
 
 class MemoriesController extends Controller
 {
@@ -55,9 +56,21 @@ class MemoriesController extends Controller
 
     public function show(\App\Memory $memory) {
         return view('memories.show', compact('memory'));
-        }
-    
+    }
 
+    public function redirectt(\App\Memory $memory)
+    {
+        return redirect('/profile/'.auth()->user()->id);
+    }
+
+    public function delete($id)
+    {
+        auth()->user()->memories()->find($id)->delete();
+        return redirect('/profile/'.auth()->user()->id);
+    }
     
 }
+
+
+
 
